@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Darkness</title>
+</head>
+<body background="Images/IMG_4050.jpeg" class="background">
+  <script src="Javascript/script.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+
+  <header class="header">
+   <form class="form-control">
+    <input type="text" placeholder="Username" name="user" class="username">
+    <input type="password" placeholder="Password" name="password" class="password">
+   </form>
+
+   <button class="btn" onclick="btn()" id="btn">Submit</button>
+
+     <div class="photo">
+      <a href="https://github.com/Arsik3204"><img src="Images/lFI6IwWY0-4.jpg"></a>
+     </div>
+
+<p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusamus, corporis eaque incidunt aliquam nobis vitae corrupti eum ipsam atque autem earum consequuntur officia, minus deserunt distinctio qui quam, voluptatibus soluta saepe in? Accusamus impedit aut iure unde alias sequi ad consectetur, veritatis, recusandae necessitatibus, laudantium illo vero nesciunt placeat!</p>
+
+  </header>
+
+<script>
+  tippy('.username', {
+  content: 'User',
+  trigger:'click',
+  placement:'left',
+
+});
+
+tippy('.password', {
+  content: 'Password',
+  trigger:'click',
+  placement:'left',
+});
+
+tippy('.photo', {
+  content: 'GitHub'
+});
+</script>
+
+  
+</body>
+</html>

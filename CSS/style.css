@@ -1,0 +1,103 @@
+@charset "utf-8";
+*{padding: 0px; margin: 0px; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki&display=swap');
+/* font-family: 'Noto Serif Khojki', serif; */
+
+.background {
+  background-size: 840px;
+  background-repeat: no-repeat;
+}
+
+.form-control input {
+ width: 256px;
+ height: 42px;
+ font-size: 20px;
+ font-family: 'Noto Serif Khojki', serif;
+
+
+ border-radius:18px;
+ border: 1px solid black;
+ outline: none;
+
+ padding-left: 30px;
+ transition: .4s all ease;
+}
+
+.btn {
+ position: absolute;
+ top:510px;
+ left:67%;
+  
+ width: 256px;
+ height: 42px;
+ font-size: 20px;
+ font-family: 'Noto Serif Khojki', serif;
+ border-radius:18px;
+ border: 1px solid black;
+ outline: none;
+
+ cursor: pointer;
+ transition: .4s all ease;
+}
+
+ .username {
+  position: absolute;
+  top:350px;
+  left:67%;
+ }
+
+.password {
+  position: absolute;
+  top:430px;
+  left:67%;
+}
+
+.photo {
+  position: absolute;
+  top: 10%;
+  left:68.5%;
+}
+
+ .photo img {
+  width: 200px;
+  height: 200px;
+  border-radius:300px;
+  border: 2px solid black;
+  transition: .4s all ease;
+ }
+
+ .btn:hover {
+  transform: scale(1.1);
+  font-size: 25px;
+ }
+
+ .form-control input:hover {
+  transform: scale(1.1);
+  font-size: 25px;
+ }
+
+ .photo img:hover {
+  transform: scale(1.1);
+  border: 1px solid black;
+ }
+
+ .paragraph {
+  position: absolute;
+  top: 600px;
+  left: 960px;
+
+  width: 600px;
+  height: 100px;
+  text-align: center;
+
+  font-size: 30px;
+  font-family: 'Noto Serif Khojki', serif;
+  
+  transition: 2s all ease;
+ }
+
+ .paragraph:hover {
+  transform: rotate(360deg);
+ }
+
+ 

@@ -83,21 +83,6 @@
   border: 1px solid black;
  }
 
- .paragraph {
-  position: absolute;
-  top: 600px;
-  left: 960px;
-
-  width: 600px;
-  height: 100px;
-  text-align: center;
-
-  font-size: 30px;
-  font-family: 'Noto Serif Khojki', serif;
-  
-  transition: 2s all ease;
- }
-
  
 
  
